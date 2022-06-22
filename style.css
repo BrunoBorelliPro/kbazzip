@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#B15757;
+}
+.nav-container{
+    background-color: #B15757;
+}
+.logo{
+    display: flex;
+}
+.social i{
+    width: 50px;
+    font-size: 36px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #853434;
+    height: 10vh;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 10vw;
+    
+}
+.menu-item:hover{
+    background-color: #bb4e4e;
+}
+
+.pizzas{
+    height: 50vh;
+    background:url(./assets/img3.jfif); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.my-btn{
+    background-color: #975151;
+    border: 1px solid black;
+
+    padding: 10px, 20px;
+
+    font-family: 'Inter', sans-serif;
+}
+.btn-banner{
+    margin-bottom: 10vh;
+
+}
+
+.sobre{
+    min-height: 30vh;
+    background-color: #CF9178;
+    padding: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    background-color: #FFE082;
+}
+
+.card{
+    background-color: #CF9178;
+    margin-bottom: 1rem;
+}
+.sobrenos{
+    margin: 2rem;
+    background-color: #CF9178;
+    font-size: 36px;
+}
